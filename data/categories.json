@@ -1,0 +1,94 @@
+[
+  {
+    "id": "10",
+    "category": "\u8003\u7814"
+  },
+  {
+    "id": "20",
+    "category": "\u6258\u798f"
+  },
+  {
+    "id": "30",
+    "category": "\u96c5\u601d"
+  },
+  {
+    "id": "40",
+    "category": "GRE"
+  },
+  {
+    "id": "51",
+    "category": "\u56db\u7ea7"
+  },
+  {
+    "id": "52",
+    "category": "\u516d\u7ea7"
+  },
+  {
+    "id": "55",
+    "category": "BEC"
+  },
+  {
+    "id": "60",
+    "category": "\u82f1\u4e13"
+  },
+  {
+    "id": "70",
+    "category": "\u6258\u4e1a"
+  },
+  {
+    "id": "80",
+    "category": "GMAT"
+  },
+  {
+    "id": "90",
+    "category": "SAT"
+  },
+  {
+    "id": "91",
+    "category": "ACT"
+  },
+  {
+    "id": "101",
+    "category": "\u9ad8\u4e2d"
+  },
+  {
+    "id": "102",
+    "category": "\u521d\u4e2d"
+  },
+  {
+    "id": "103",
+    "category": "\u5c0f\u5b66"
+  },
+  {
+    "id": "104",
+    "category": "\u533b\u5b66"
+  },
+  {
+    "id": "105",
+    "category": "\u8ba1\u7b97\u673a"
+  },
+  {
+    "id": "109",
+    "category": "\u6587\u5b66\u4f5c\u54c1"
+  },
+  {
+    "id": "110",
+    "category": "\u82f1\u8bed\u8f85\u5bfc"
+  },
+  {
+    "id": "120",
+    "category": "\u516c\u5171\u82f1\u8bed"
+  },
+  {
+    "id": "130",
+    "category": "\u516c\u5f00\u8bfe"
+  },
+  {
+    "id": "140",
+    "category": "\u5f71\u89c6\u5267"
+  },
+  {
+    "id": "150",
+    "category": "\u5176\u4ed6"
+  }
+]
