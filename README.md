@@ -3,12 +3,12 @@
 
 1. 改账号登陆为Cookies登陆；
 2. 由于shanbay.com已更改单词书链接，但单词书的Lists链接没变，故依据[原项目2019-06提供的wordlist.json](https://github.com/likeke1997/getWordsFromShanbay)抓取了所有词表；
-3. 完整爬取结果见`.\data\wordsSelected.json`。
+3. 完整爬取结果见`.\data\wordsSelected.json.7z`。
 
 # 原说明
 这是我用 Python 写的爬虫，能爬取扇贝网里的单词书和单词列表。使用到的库有`request`、`bs4`、`json`。
 
-爬取结果展示（节选自`.\data\wordsSelected.json`）：
+爬取结果展示（节选自`.\data\wordsSelected-example.json`）：
 
 ```json
 [
