@@ -1,0 +1,22 @@
+\]\r\n            },\r\n            {\r\n                "title": "\\n(.*?)\\n",\r\n                "words": \[
+\]},{"title": "\\n\1\\n", "words": \[
+
+
+\[\r\n    {\r\n        "category": "(.*?)",\r\n        "wordbooks": \[\r\n            {\r\n                "title": "\\n(.*?)\\n",\r\n                "words": \[
+\[{"category": "\1", "wordbooks": \[{"title": "\\n\2\\n", "words": \[
+
+^                \]\r\n            }\r\n        \]\r\n    },\r\n    {\r\n        "category": "(.*?)",\r\n        "wordbooks": \[\r\n            {\r\n                "title": "\\n(.*?)\\n",\r\n                "words": \[
+\]}\]},{"category": "\1", "wordbooks": \[{"title": "\\n\2\\n", "words": \[
+
+
+]}]}]
+
+{"en": "(.*?)", "zh": "(.*?)"},
+\1\:\2
+
+
+保留不同意思的  不重复词、组词：139467
+不保留意思的    不重复词、组词：60103
+
+删除组词          不重复单词：46470
+不区分大小写   不重复单词：45667
