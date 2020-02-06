@@ -5,6 +5,18 @@
 2. 由于shanbay.com已更改单词书链接，但单词书的Lists链接没变，故依据[原项目2019-06提供的wordlist.json](https://github.com/likeke1997/getWordsFromShanbay)抓取了所有词表；
 3. 完整爬取结果见`.\data\wordsSelected.json.7z`。
 
+# 合并json
+```python
+json.dump([json.load(open('wordsSelected_11.json')), json.load(open('wordsSelected_12.json'))], open('wordsSelected_1.json','w'))
+```
+
+# 格式化json
+```python
+json_tmp = json.dumps(json.load(open('wordsSelected_1.json')), indent=4, sort_keys=False, ensure_ascii=False)
+    with open('wordsSelected_1_fm.json', 'w') as json_file:
+    json_file.write(json_tmp)
+```
+
 # 原说明
 这是我用 Python 写的爬虫，能爬取扇贝网里的单词书和单词列表。使用到的库有`request`、`bs4`、`json`。
 
