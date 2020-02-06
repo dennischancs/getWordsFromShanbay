@@ -49,11 +49,16 @@
 
 ```python
 # 可以直接使用我爬取好的 wordlist
-categories = loadJSON('wordlist)
+categories = loadJSON('wordlist')
 
-# 配置登录信息
-userAccount = 'likeke'
-userPassword = '123456'
+# 填写登陆后的浏览器Cookies
+cookies = {
+    'csrftoken': 'AAAAAAAAAAAAAAAAAAAAAA',
+    '_ga': 'AAAAAAAAAAAAAAAAAAAAAA5',
+    'sensorsdata2015jssdkcross': 'AAAAAAAAAAAAAAAAAAAAAA',
+    'sessionid': '"AAAAAAAAAAAAAAAAAAAAAA"',
+    'auth_token': 'AAAAAAAAAAAAAAAAAAAAAA4'
+}
 
 # 配置需要爬取的单词书类别 category 和数量 count
 selectBooks = [
@@ -65,7 +70,7 @@ selectBooks = [
 
 然后打开命令行工具，运行：
 ```bash
-$ python test.py
+$ python getWords.py
 ```
 
-之后耐心等待爬取就好啦！爬取的数据会存放在`.\data\`目录下。目录下已存在的几个`.json`文件都是我爬取好的数据，可作为参考或直接使用。
+之后耐心等待爬取就好啦！爬取的数据会存放在`.\data\`目录下。
