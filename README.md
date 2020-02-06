@@ -5,6 +5,8 @@
 2. 由于shanbay.com已更改单词书链接，但单词书的Lists链接没变，故依据[原项目2019-06提供的wordlist.json](https://github.com/likeke1997/getWordsFromShanbay)抓取了所有词表；
 3. 完整爬取结果见`.\data\wordsSelected.json.7z`。
 
+注：*词组卡牌分类统计 见[dennischancs/WordFrequencyPython: Python code to find out most frequent words from different word lists](https://github.com/dennischancs/WordFrequencyPython)*
+
 # 合并json
 ```python
 json.dump([json.load(open('wordsSelected_11.json')), json.load(open('wordsSelected_12.json'))], open('wordsSelected_1.json','w'))
