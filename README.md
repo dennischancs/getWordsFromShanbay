@@ -1,6 +1,7 @@
 # 修改
 1. 改账号登陆为Cookies登陆;
-2. 由于shanbay.com改变了单词书链接，但单词书的Lists链接没变，故依据[原项目2019-06提供的wordlist.json](https://github.com/likeke1997/getWordsFromShanbay)抓取了所有词表。
+2. 由于shanbay.com改变了单词书链接，但单词书的Lists链接没变，故依据[原项目2019-06提供的wordlist.json](https://github.com/likeke1997/getWordsFromShanbay)抓取了所有词表;
+3. 爬取结果见`.\data\wordsSelected.json`。
 
 
 # [原说明](https://github.com/likeke1997/getWordsFromShanbay)
